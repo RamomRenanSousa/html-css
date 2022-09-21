@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'indroid';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+html{
+    background-color: #84E1AD;
+}
+body{
+    background-color: white;
+    margin-right: 35px;
+    margin-left: 35px;
+
+}
+div#iframe{
+    border: 5px solid #1A5C38;
+    padding: #1A5C38;
+    text-align: center;
+}
+picture{
+ 
+}
+div#topo{
+margin: 0px;
+background-image: linear-gradient(to bottom, rgb(61, 219, 131), #1A5C38);
+}
+picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+header{
+        color: white;
+        font-weight: bold;
+}
+p#titulo_complemento{
+font-weight: 300;
+}
+nav{color: white;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+color: inherit;
+}
+main{
+    margin: auto;
+background-color: white;
+}
+footer{
+    background-color: #1A5C38;
+    color: white;
+}
+ul{
+    list-style-type: disc;
+}
+aside{
+    background-color: #C5EBD6;
+    margin: 5px 30px ;
+    }
+    h1#titulo_site{
+        font: bold 2em 'none' ;
+        color: white;
+        text-align: center;
+    }
+    h1{
+        color: #387553;
+        font: 1.5em 'indroid'; 
+    }
+    h2{
+        color: #387553;
+        font: 1.5em 'indroid';
+        background-image: linear-gradient(to right, #B6DEC8, white);
+    }
+h3#extra{
+    color: white;
+background-color: #2FA866;}
+p#titulo_complemento{
+text-align: center;
+}
+em{
+    text-decoration: underline;
+    font-style: normal;
+}
